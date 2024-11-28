@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_horizontal"
+    android:background="#795548"> <!-- Brown shade background -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select a Table"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="20dp" />
+
+    <!-- Grid-like layout with buttons -->
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:rowCount="5"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/btnTable1"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            android:backgroundTint="#EFAE6E"
+            android:text="Table 1"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/btnTable2"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            android:backgroundTint="#EFAE6E"
+            android:text="Table 2"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/btnTable3"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            android:backgroundTint="#EFAE6E"
+            android:text="Table 3"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/btnTable4"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            android:backgroundTint="#EFAE6E"
+            android:text="Table 4"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/btnTable5"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            android:backgroundTint="#EFAE6E"
+            android:text="Table 5"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/btnTable6"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            android:backgroundTint="#EFAE6E"
+            android:text="Table 6"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/btnTable7"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            android:backgroundTint="#EFAE6E"
+            android:text="Table 7"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/btnTable8"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            android:backgroundTint="#EFAE6E"
+            android:text="Table 8"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/btnTable9"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            android:backgroundTint="#EFAE6E"
+            android:text="Table 9"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/btnTable10"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            android:backgroundTint="#EFAE6E"
+            android:text="Table 10"
+            android:textColor="@android:color/white" />
+
+    </GridLayout>
+</LinearLayout>
+
